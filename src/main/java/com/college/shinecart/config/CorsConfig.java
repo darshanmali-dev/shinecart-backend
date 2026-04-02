@@ -20,7 +20,7 @@ public class CorsConfig {
         config.setAllowCredentials(true);
 
         // Allow your frontend origin
-        config.setAllowedOrigins(Arrays.asList("http://localhost:5173")); // Your Vite dev server
+        config.setAllowedOrigins(Arrays.asList("https://shinecart-frontend.vercel.app")); // Your Vite dev server
 
         // Allow all headers
         config.addAllowedHeader("*");

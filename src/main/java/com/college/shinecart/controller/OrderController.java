@@ -17,7 +17,7 @@ import java.util.stream.Collectors;
 
 @RequestMapping("/api/orders")
 @RequiredArgsConstructor
-@CrossOrigin(origins = "http://localhost:5173")
+@CrossOrigin(origins = "https://shinecart-frontend.vercel.app")
 public class OrderController {
 
     private final OrderService orderService;

@@ -18,7 +18,7 @@ import java.util.Map;
 @RestController
 @RequestMapping("/api/cart")
 @RequiredArgsConstructor
-@CrossOrigin(origins = "http://localhost:5173")
+@CrossOrigin(origins = "https://shinecart-frontend.vercel.app")
 public class CartController {
 
     private final CartService cartService;

@@ -17,7 +17,7 @@ import java.util.Map;
 @RestController
 @RequestMapping("/api/wishlist")
 @RequiredArgsConstructor
-@CrossOrigin(origins = "http://localhost:5173")
+@CrossOrigin(origins = "https://shinecart-frontend.vercel.app")
 public class WishlistController {
 
     private final WishlistService wishlistService;

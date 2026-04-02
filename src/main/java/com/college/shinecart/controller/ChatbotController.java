@@ -17,7 +17,7 @@ import java.util.Map;
 
 @RestController
 @RequestMapping("/api/chatbot")
-@CrossOrigin(origins = "http://localhost:5173")
+@CrossOrigin(origins = "https://shinecart-frontend.vercel.app")
 @RequiredArgsConstructor
 public class ChatbotController {
 

@@ -18,7 +18,7 @@ import java.util.Map;
 @RestController
 @RequestMapping("/api/auth")
 @RequiredArgsConstructor
-@CrossOrigin(origins = "http://localhost:5173")  // Your frontend URL
+@CrossOrigin(origins = "https://shinecart-frontend.vercel.app")  // Your frontend URL
 public class AuthController {
 
     private final AuthService authService;

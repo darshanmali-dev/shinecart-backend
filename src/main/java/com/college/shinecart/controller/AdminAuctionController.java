@@ -20,9 +20,10 @@ import java.util.List;
 import java.util.Map;
 import java.util.stream.Collectors;
 
+
 @RestController
 @RequestMapping("/api/admin/auctions")
-@CrossOrigin(origins = "http://localhost:5173")
+@CrossOrigin(origins = "https://shinecart-frontend.vercel.app")
 public class AdminAuctionController {
 
     @Autowired
