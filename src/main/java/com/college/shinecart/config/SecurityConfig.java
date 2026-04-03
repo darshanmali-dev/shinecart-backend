@@ -63,6 +63,7 @@ public class SecurityConfig {
                         .requestMatchers(HttpMethod.GET, "/api/bids/auction/*/winning").permitAll()
                                 .requestMatchers(HttpMethod.GET, "/api/cart").permitAll()
                                 .requestMatchers("/actuator/health").permitAll()
+                                .requestMatchers("/ping").permitAll()
 
 
                         .requestMatchers("/api/payments/**").permitAll()
